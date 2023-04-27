@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F8FBFF;
+    ;
+}
+
+.g {
+    background-color: rgb(204, 204, 204);
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    right: 0;
+}
+
+nav:hover {
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.bg-cl {
+    background-color: #34C9B6;
+
+}
+
+.bg-b {
+    background-color: #C7F2FF;
+
+}
+
+.tx {
+    color: #34C9B6;
+}
+
+.bg-i {
+    background-color: #dbf1f9;
+    ;
+}
+
+.nav-link {
+    margin: 9px 16px 4px 9px;
+}
+
+.text-secondari {
+    color: rgba(0, 0, 0, 0.557);
+}
+
+.nav-link:hover {}
+
+.r-1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+.menu {
+    background-image: url(../images/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0% 0% 10% 0%;
+}
+
+.m {
+    margin-left: 11%;
+    width: 13%;
+}
+
+.mo {
+    margin: 17% 0% 4% 36%;
+}
+
+.pic {
+    margin-top: 14%;
+    margin-left: 33%;
+    width: 34%;
+}
+
+.pic-1 {
+    width: 71%;
+    margin-left: 26%;
+}
+
+.img {
+    height: 295px;
+}
+
+.social {
+    height: 31px;
+    width: 31px;
+    padding: 6px;
+}
+
+a:hover {
+    background-color: #34C9B6;
+
+}
+
+.br {
+    border-radius: 100px;
+}
+
+.b {
+    margin-left: 10%;
+    margin-right: 8%;
+}
+
+.f {
+    margin-left: 9%;
+    margin-right: 7%;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.bt {
+    padding-left: 47%;
+    padding-top: 1%;
+}
+
+.w {
+    width: 86%;
+    height: 23px;
+}
+
+.fs {
+    font-size: 14px;
+    padding: 6px 2px 8px 1px;
+    font-weight: 300;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 7px;
+    height: 7px;
+    background-color: #34c9b6;
+    border-radius: 130px;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+}
+
+.carousel-indicators :active {
+    width: 9px;
+
+    transition: all 0.5s ease-in-out;
+    height: 9px;
+}
+
+.card-1:hover {
+    background-color: #C7F2FF;
+}
+
+footer {
+
+    background: url(../images/Ret-37.svg);
+
+    background-size: cover;
+    padding: 13% 0 1% 0;
+    margin-top: 5%;
+}
+
+.ms {
+    margin-left: 11%;
+    width: 50%;
+    margin-top: -38px;
+}
+
+.r-37 {
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+
+.l {
+    margin: 6% 0% 0% 11%;
+    font-size: 19px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(251, 251, 251);
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a:hover {
+    color: #4f8f87;
+}
+
+.ve {
+    width: 3%;
+}
+
+.vet {
+    width: 6%;
+    margin: 3px 0px 8px -1px;
+}
+
+.soc {
+    border: 2px solid transparent;
+    background-color: #f9f9f9;
+    border-radius: 234px;
+    height: 45px;
+    padding: 16px 11px 12px 13px;
+}
+
+.soc-1 {
+    border: 0px solid transparent;
+    background-color: #f9f9f9;
+    height: 43px;
+    padding: 11px 17px 7px 15px;
+    border-radius: 222px;
+}
+
+.soc:hover {
+    background: #c9e7e9;
+
+
+
+
+}
+
+.btnn {}
+
+.soc-1:hover {
+    background: #c9e7e9;
+}
+
+.btn-1 {}
+
+.fb {}
+
+@media only screen and (min-width:300px) and (max-width: 667px) {
+
+    .mo {
+        margin: 19% 0% -11% 22%;
+    }
+
+
+    .pic-1 {
+        width: 78%;
+        margin-left: 9%;
+    }
+
+    .btnn {
+        margin-left: -38px;
+    }
+
+    footer {
+
+        padding: 74% 0 1% 0;
+
+
+    }
+
+    .btn-1 {
+        padding-left: 8%;
+    }
+}
+
+@media only screen and (min-width: 668px) and (max-width:767px) {
+    .mo {
+        margin: 19% 0% -11% 22%;
+    }
+
+
+    .pic-1 {
+        width: 78%;
+        margin-left: 9%;
+    }
+
+    .btnn {
+        margin-left: -38px;
+    }
+
+    footer {
+
+        padding: 74% 0 1% 0;
+
+
+    }
+
+    .btn-1 {
+        padding-left: 7%;
+    }
+
+    .bt {
+        padding-left: 47%;
+        padding-top: 1%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px) {
+    .mo {
+        margin: 19% 0% -11% 22%;
+    }
+
+
+    .pic-1 {
+        width: 117%;
+        margin-left: 41%;
+        margin-top: 61px;
+    }
+
+    .btnn {
+        margin-left: -38px;
+    }
+
+    footer {
+
+        padding: 17% 0 1% 0;
+
+    }
+
+    .btn-1 {
+        padding-left: 7%;
+    }
+
+    .bt {
+        padding-left: 47%;
+        padding-top: 1%;
+    }
+
+    .social {
+        height: 31px;
+        width: 31px;
+        padding: 6px;
+    }
+
+    .ve {
+        width: 16%;
+    }
+
+    .vet {
+        width: 17%;
+        margin: 3px 0px 8px -1px;
+    }
+
+    .fs {
+        font-size: 18px;
+        padding: 4px 8px 5px 0px;
+        font-weight: 300;
+    }
+
+}
